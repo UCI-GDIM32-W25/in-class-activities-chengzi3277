@@ -6,6 +6,7 @@
 ### w2
 
 ## 1
+![4fc29f50fcc32c5aa69019fe53639c8](https://github.com/user-attachments/assets/694bf784-9258-4c54-aa3e-99b7817b5416)
 
 
 ## 2

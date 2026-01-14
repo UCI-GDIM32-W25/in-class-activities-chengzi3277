@@ -1,13 +1,12 @@
 # GDIM32 In Class Activities
-## Instructions
-Put each week's activities under new headers like the one shown above. Headers are created with the # symbol. More # symbols = smaller header.
+
+## w1
 
 
-Hit enter TWICE to create a new line.
+### w2
+
+## 1
 
 
-- Create bullet points by writing dashes.
-- Here's another bullet point entry.
-
-
-Remove all placeholder text in order to get full credit for README file formatting.
+## 2
+[https://github.com/UCI-GDIM32-W25/mg2-chengzi3277/commit/ddd7e5f3cc00eb42a2ef3a5330568edbab46cb8f](URL)

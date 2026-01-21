@@ -11,3 +11,13 @@
 
 ## 2
 [https://github.com/UCI-GDIM32-W25/mg2-chengzi3277/commit/ddd7e5f3cc00eb42a2ef3a5330568edbab46cb8f](URL)
+
+
+### w3
+
+## Activities 0-2
+Ruichen Ma
+Chengxi Jiang
+
+## Activity 3
+

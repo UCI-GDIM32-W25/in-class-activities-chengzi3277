@@ -21,4 +21,5 @@ Chengxi Jiang
 
 ## Activity 3
 
-![Uploading 0115eb1b7c5d03736691295a52e03655.png…]()
+
+![0115eb1b7c5d03736691295a52e03655](https://github.com/user-attachments/assets/fa57b0a3-45c3-4d21-b6d2-7f84a6eadf53)

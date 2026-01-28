@@ -23,3 +23,12 @@ Chengxi Jiang
 
 
 ![0115eb1b7c5d03736691295a52e03655](https://github.com/user-attachments/assets/fa57b0a3-45c3-4d21-b6d2-7f84a6eadf53)
+
+### w4
+
+## 1
+Ruichen Ma
+Chengxi Jiang
+
+## 2
+When the game runs, only one Locator remains in the Scene. The first Locator sets the static Instance, and any additional Locator objects detect that Instance is already taken and destroy themselves. This enforces the Singleton pattern by ensuring only one Locator exists at runtime.

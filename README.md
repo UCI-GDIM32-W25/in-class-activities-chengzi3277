@@ -10,7 +10,7 @@
 
 
 ## 2
-[https://github.com/UCI-GDIM32-W25/mg2-chengzi3277/commit/ddd7e5f3cc00eb42a2ef3a5330568edbab46cb8f](URL)
+[comm]([URL](https://github.com/UCI-GDIM32-W25/mg2-chengzi3277/commit/ddd7e5f3cc00eb42a2ef3a5330568edbab46cb8f))
 
 
 ### w3
@@ -35,4 +35,8 @@ When the game runs, only one Locator remains in the Scene. The first Locator set
 
 ## 3
 ![f2f5e63aaca899b292ff673d49e70905](https://github.com/user-attachments/assets/4c12459c-f844-407c-bf50-e5735793f794)
+
+## 4
+[comm]([URL](https://github.com/UCI-GDIM32-W25/HW4/compare/main...chengzi3277:HW4:main))
+i build the envirment and the bird. And i write the code of the bird, make it can jump and check if it dead
 

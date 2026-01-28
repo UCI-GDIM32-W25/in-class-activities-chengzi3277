@@ -32,3 +32,7 @@ Chengxi Jiang
 
 ## 2
 When the game runs, only one Locator remains in the Scene. The first Locator sets the static Instance, and any additional Locator objects detect that Instance is already taken and destroy themselves. This enforces the Singleton pattern by ensuring only one Locator exists at runtime.
+
+## 3
+![f2f5e63aaca899b292ff673d49e70905](https://github.com/user-attachments/assets/4c12459c-f844-407c-bf50-e5735793f794)
+

@@ -40,3 +40,48 @@ When the game runs, only one Locator remains in the Scene. The first Locator set
 [comm]([URL](https://github.com/UCI-GDIM32-W25/HW4/compare/main...chengzi3277:HW4:main))
 i build the envirment and the bird. And i write the code of the bird, make it can jump and check if it dead
 
+
+
+### w5
+
+## 1
+I think the design of these interfaces and abstract classes is generally good because it helps separate responsibilities and keeps the code organized. Using interfaces makes it easier to change or extend systems like scoring or audio without rewriting existing code, and abstract classes reduce repeated logic by sharing common behavior. If I were building a project with items like these, I would mostly keep the same design, but I might simplify it if the project stayed small. For a short assignment, some abstractions can feel unnecessary, but for a larger project, this structure would make the code easier to manage, read, and expand over time.
+
+## 2
+the Model is the classes that store game data like objects like weapons and material, the View is the UI scripts that display that data on screen and the text that npc say.
+the Controller is the gameplay scripts that handle player input and interactions and update the game state.
+
+## 3
+
+# example 1
+Model: ScriptableObjects store beat data (key, screen position, song timing).
+Control: Manages beat spawning, input detection, and hit/miss judgment.
+View: Handles beat visuals/animations, SFX, and hit/miss feedback.
+Singleton GameController syncs audio-timing, input, and feedback via events.
+
+# example 2
+Model: ScriptableObjects store core character data like health, base movement, unique attack.
+Control: Base CharacterController handles shared logic (health, movement); unique attack/movement logic is modular per character.
+View: Manages character meshes, animations, and visual/audio feedback for abilities.
+Singleton GameController syncs character state, ability usage, and feedback via events.
+# example 3
+View:InventoryIU, DialogueUI, animation, SFX.
+
+Control:Player NPC Object(plant, stone)
+
+Model:Items, NPC, Object (ScriptableObject)
+
+Singleton: GameController (sent event)
+
+For this Stardew Valley-like farming game, we structure it following the Model-View-Control (MVC) pattern with a Singleton GameController:The Model layer uses ScriptableObjects to store core data for Items, NPCs, and farm objects (plants, stones).The Control layer manages interactions between the Player, NPCs, and farm objects (plants, stones).The View layer handles all visual/audio feedback, including InventoryUI, DialogueUI, character animations, and sound effects (SFX).A Singleton GameController acts as the central hub, sending events to connect the Model, View, and Control layers, ensuring smooth communication across all game systems.
+
+
+## 4
+Chengxi Jiang
+RUichen Ma
+Eric Wei
+
+Proposal [final w5](https://docs.google.com/document/d/1xih16oloKwzPrgx0m7rAdHD8XQO2XJP5otpn2PSakoM/edit?tab=t.0#heading=h.y4j3q551ojs1)
+
+
+

@@ -9,7 +9,7 @@ public class PlayerW5Demo1 : MonoBehaviour
     //
     // but what if these items never appear on-screen, or appear and disappear in UI?
     // does it make sense for Item to be a MonoBehaviour if it's only representing data and not behavior?
-    [SerializeField] private List<InventoryItem> _inventory;
+    [SerializeField] private List<InventoryItem> _inventory = new List<InventoryItem>();
 
     // this is UI code that doesn't really need to be in the player class,
     // I just put it here because I was coding quickly and lazily
@@ -21,20 +21,28 @@ public class PlayerW5Demo1 : MonoBehaviour
         // toggles the item list text
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            _inventoryUI.gameObject.SetActive(!_inventoryUI.gameObject.activeSelf);
-            
-            string itemList = "";
-            int i = 0;
-            foreach(InventoryItem item in _inventory)
-            {
-                itemList += item.itemName;
-                if(i < _inventory.Count - 1) itemList += ", ";
-                i++;
-            }
-            _itemText.text = itemList;
+            _inventoryUI.SetActive(!_inventoryUI.activeSelf);
+            UpdateInventoryUI();
         }
     }
+
+     private void UpdateInventoryUI()
+    {
+        if (_inventory.Count == 0)
+        {
+            _itemText.text = "Inventory is empty.";
+            return;
+        }
+        string itemList = "Inventory:\n";
+        for (int i = 0; i < _inventory.Count; i++)
+        {
+            itemList += $"{i + 1}. {_inventory[i].itemName}\n";
+        }       
+
+        _itemText.text = itemList;
+    }
 }
+
 
 // I could alternatively add the [Serializable] field to this class,
 // and that would make it show up in the Inspector for the Player.

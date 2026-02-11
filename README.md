@@ -84,4 +84,15 @@ Eric Wei
 Proposal [final w5](https://docs.google.com/document/d/1xih16oloKwzPrgx0m7rAdHD8XQO2XJP5otpn2PSakoM/edit?tab=t.0#heading=h.y4j3q551ojs1)
 
 
+### w6
 
+## 1
+I think I can use Gizoms to check player shooting range and enemys moving direction.
+we can use it when we try to do some complex codes, it can help us check the data fast and clearly ,we dont need to think too much about it.
+
+## 2
+Chengxi Jiang
+RUichen Ma
+Eric Wei
+
+Proposal [final w5](https://docs.google.com/document/d/1xih16oloKwzPrgx0m7rAdHD8XQO2XJP5otpn2PSakoM/edit?tab=t.0#heading=h.y4j3q551ojs1)

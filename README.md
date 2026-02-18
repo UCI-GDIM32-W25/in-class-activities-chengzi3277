@@ -96,3 +96,26 @@ RUichen Ma
 Eric Wei
 
 Proposal [final w5](https://docs.google.com/document/d/1xih16oloKwzPrgx0m7rAdHD8XQO2XJP5otpn2PSakoM/edit?tab=t.0#heading=h.y4j3q551ojs1)
+
+
+### w7
+
+## 1 
+In Unity, moving an object from one position to another using a vector offset
+Original.position + offset = Target.position
+surface normal ： describes the slope of the ground surface
+vector addition ： creates an origin for the raycast at an offset slightly above the player's center position
+
+## 2
+Chengxi Jiang
+RUichen Ma
+Eric Wei
+
+## 3
+
+
+## 4
+Proposal [trello w7](https://trello.com/invite/b/69951fe38563b6dbe635fcd9/ATTI28752e831b1cc64a4923d66d71eb82fc59EF406E/gdim-32-final-project-list)
+
+## 5
+Make the base background and I write some text of ui and npc talking

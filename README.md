@@ -120,3 +120,24 @@ Proposal [trello w7](https://trello.com/invite/b/69951fe38563b6dbe635fcd9/ATTI28
 
 ## 5
 Make the base background and I write some text of ui and npc talking
+
+
+### w8
+
+## 1
+we can create a filter effect by changing the overall color. The filter color can also change over time to create different effects. For example, you can increase the red value to show a low-health warning effect, or adjust the gray value to create a day and night effect.
+
+## 2
+Chengxi Jiang
+RUichen Ma
+Eric Wei
+
+## 3
+The movement is a little bit slow, need to follow what player moves. When player is moving the gun should move as the player moves. Clear on the final target or goal. Add a crosshair to aim the target.
+
+## 4
+We finish the movement and I make and find some bgm of background and shot. I also wriiting the chatting text with npc
+
+## 5
+[acad9d5255935ff0c7b11ed3bbf821c](https://github.com/user-attachments/assets/058d4fd0-06fb-4f04-93b2-14ed44f4b307)
+do the movement and some game controller
